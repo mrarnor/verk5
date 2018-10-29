@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1em;
+    font: italic bold 12px/30px Georgia, serif;
+    max-width: 50em;
+    float: left;
+}
+
+fieldset {
+    display: flex;
+    flex-flow: column;
+    max-width: 20em;
+}
+
+legend{
+    font-size: 15px
+}
+legend,
+input,
+label {
+    padding:15px;
+}
+
+
