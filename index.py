@@ -1,8 +1,8 @@
 
-
+import bottle
 from bottle import *
 from sys import argv
-bottle.debug(True)
+
 
 
 @route("/static/<skra>")
